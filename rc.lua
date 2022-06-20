@@ -21,7 +21,7 @@ if not profile_exists then
   os.exit(-1)
 end
 
--- NOTE! You must include the profiles folder, otherwise this code will fail.
+-- NOTE! You must include the profiles folder in the awesomewm parameters, otherwise this code will fail
 local ok, result = pcall(require, AWESOME_PROFILE)
 
 if not ok then
