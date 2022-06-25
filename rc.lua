@@ -8,7 +8,7 @@ local gears = require('gears')
 FORMAT = string.format
 
 LOG = print
-DEBUG = gears.debug.dump_return
+DUMP = gears.debug.dump
 WARN = gears.debug.print_warning
 ERR = gears.debug.print_error
 
