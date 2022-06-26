@@ -10,3 +10,9 @@
 --- useful for developing this configuration.
 ---
 -- !!! ................................................................. !!!
+
+--- The modified key used in keyboard and mouse mapping.
+---
+--- It can be set by setting the environment variable `AWESOME_MODIFIER` or
+--- using `Mod4` as the default key (popularly known as the Super key).
+AWESOME_MODIFIER = os.getenv('AWESOME_MODIFIER') or 'Mod4'
