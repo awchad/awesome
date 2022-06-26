@@ -4,9 +4,8 @@
     "client",
     "screen",
     "tag",
-    "root"
-  ],
-  "workspace.library": [
-    "/usr/share/awesome/lib"
+    "root",
+    "mouse",
+    "mousegrabber"
   ]
 }
